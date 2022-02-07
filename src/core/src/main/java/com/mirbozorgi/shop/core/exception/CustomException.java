@@ -14,7 +14,7 @@ public class CustomException extends RuntimeException {
 
   public CustomException() {
     this("error");
-  }
+  }ffff
 
   public CustomException(String msg) {
     this(msg, HttpStatus.BAD_REQUEST);
